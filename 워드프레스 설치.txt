@@ -1,0 +1,14 @@
+워드프레스 설치
+
+1. 아파치 설치 
+2.  php설치
+3.  mysql
+4.  워드프레스
+
+순서 
+
+
+<<wp 경로 수정할 때 날리는 쿼리문 mysql>>
+update wp_options 
+set option_value = "http://moblab.kr" 
+where option_name="siteurl" or option_name="home";
